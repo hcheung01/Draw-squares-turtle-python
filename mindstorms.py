@@ -13,7 +13,9 @@ def draw_art():
     heiny.shape("turtle")
     heiny.color("blue")
     heiny.speed(1)
-    draw_square(heiny)
+    for i in range(1, 37):
+        draw_square(heiny)
+        heiny.right(10)
 
     queenie = turtle.Turtle()
     queenie.shape("arrow")
